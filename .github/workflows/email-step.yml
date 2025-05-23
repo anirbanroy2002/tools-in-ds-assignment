@@ -1,0 +1,15 @@
+name: Email Step Test
+
+on:
+  workflow_dispatch:  # Allows manual triggering from the GitHub UI
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: 24f1002119@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
